@@ -97,9 +97,8 @@ def taxes_for_department(money_for_tax):
         if item["department"] == None:
             tax_in_money += money_for_tax * (item["value_percents"] / 100)
     return tax_in_money
-
-
 # отдельная функция подсчета налогов, применяемых для конкретного отдела
+
 
 # 1 задание
 for department in departments:
